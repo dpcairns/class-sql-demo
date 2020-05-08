@@ -12,7 +12,7 @@ module.exports = [
     is_single: true,
   },
   {
-    name: 'DROP TABLE songs;',
+    name: 'free falling',
     artist: 'tom petty',
     length: 3,
     is_single: true,

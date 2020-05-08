@@ -27,7 +27,7 @@ async function run() {
       songs.map(song => {
         return client.query(`
                     INSERT INTO songs (name, artist, length, user_id, is_single)
-                    VALUES ($1, $2, $3, $4, $5);
+                    VALUES ($1, $2, $3, $4 , $5);
                 `,
         [song.name, song.artist, song.length, user.id, song.is_single]);
       })

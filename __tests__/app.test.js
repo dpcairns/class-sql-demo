@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const fakeRequest = require('supertest');
-const app = require('../server.js');
+const app = require('../lib/app.js');
 
 describe('app routes', () => {
   beforeAll(() => {
